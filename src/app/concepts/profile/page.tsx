@@ -1,11 +1,12 @@
-import React from 'react'
+import Profile from '@/components/profile';
+import React from 'react';
 
 const page = () => {
   return (
-    <div>
-      this is profile page
+    <div className='bg-fuchsia-300 h-screen'>
+      <Profile />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
